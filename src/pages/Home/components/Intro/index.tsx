@@ -9,7 +9,7 @@ export function Intro() {
                 <div>
                     <section>
                         <S.IntroTitle size="xl">
-                            Encontre o perfume perfeita para qualquer hora do dia
+                            Encontre o perfume perfeito para qualquer hora do dia
                         </S.IntroTitle>
                     </section>
                 </div>
