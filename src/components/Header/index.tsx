@@ -1,8 +1,7 @@
 import * as S from './styles'
 import { ShoppingCart, UserCircle } from "@phosphor-icons/react"
 import { NavLink, useNavigate } from "react-router-dom"
-import { useEffect, useState } from 'react'
-import { Menu } from '../../pages/Home/components/PerfumeCard'
+import {useState } from 'react'
 import { useCart } from '../../hooks/useCart'
 
 export const Header = () => {

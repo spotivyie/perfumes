@@ -25,7 +25,7 @@ export function Payment() {
     const { errors } = formState as unknown as ErrorsType
     const [ installments, setInstallments ] = useState<Installment[]>([])
     
-    const { cartItemsTotal, cartQuantity } = useCart()
+    const { cartItemsTotal } = useCart()
     const PRICE = 13.5
 
     const cartTotal = PRICE + cartItemsTotal

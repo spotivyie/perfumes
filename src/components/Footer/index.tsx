@@ -1,4 +1,4 @@
-import { CreditCard, FacebookLogo, InstagramLogo, Laptop, Phone } from "@phosphor-icons/react"
+import { CreditCard, FacebookLogo, InstagramLogo, Phone } from "@phosphor-icons/react"
 import * as S from './styles'
 
 export function Footer () {
