@@ -33,7 +33,7 @@ export const Header = () => {
                 <S.NavMobile className={isCategoryOpen ? 'is-open' : ''}>
                     <S.Todos className="container">
                         <S.Perfumes>
-                            <NavLink to="/todos">
+                            <NavLink to="/perfumes">
                                 <p>Todos os perfumes</p>
                             </NavLink>
                         </S.Perfumes>

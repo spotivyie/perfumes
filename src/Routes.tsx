@@ -6,6 +6,9 @@ import { CompleteOrderPage } from "./pages/CompleteOrder"
 import { OrderConfirmedPage } from "./pages/OrderConfirmed"
 import Login from "./pages/Login"
 import Cadastrar from "./pages/Login/components/Cadastrar"
+import { Perfumes } from "./pages/AllPerfumes/Perfumes"
+import { PerfumesFeminino } from "./pages/AllPerfumes/PerfumesFem"
+import { PerfumesMasculinos } from "./pages/AllPerfumes/PerfumesMasc"
 
 export function Router() {
     return (
@@ -17,9 +20,9 @@ export function Router() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/cadastrar" element={<Cadastrar />} />
 
-                {/* <Route path="/todos" element={< />} />
-                <Route path="/femininos" element={< />} />
-                <Route path="/masculinos" element={< />} /> */}
+                <Route path="/perfumes" element={<Perfumes />} />
+                <Route path="/femininos" element={<PerfumesFeminino />} />
+                <Route path="/masculinos" element={<PerfumesMasculinos />} />
             </Route>
         </Routes>
     )
